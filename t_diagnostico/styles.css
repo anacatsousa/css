@@ -1,0 +1,30 @@
+body {
+	margin: 50px 355px;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+header,
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section,
+footer {
+	margin: 50px auto;
+}
+
+video {
+	width: 800px;
+}
+
+div {
+	margin-bottom: 20px;
+}

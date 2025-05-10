@@ -1,0 +1,189 @@
+.board {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	gap: 10px;
+	background-color: black;
+}
+
+.board-1 .area.orange {
+	grid-row: 1 / -1;
+	grid-column: 1 / 2;
+}
+
+.board-1 .area.blue {
+	grid-row: 7 / -1;
+	grid-column: 2 / -1;
+}
+
+.board-1 .area.yellow {
+	grid-row: 1/ 5;
+	grid-column: 6 / -1;
+}
+
+.board-1 .area.red-1 {
+	grid-row: 1/ 7;
+	grid-column: 2/ 6;
+}
+
+.board-1 .area.red-2 {
+	grid-row: 5 / 7;
+	grid-column: 6 / -1;
+}
+
+.board-2 .area.orange {
+	grid-row: 1 / 2;
+	grid-column: 3 / -1;
+}
+
+.board-2 .area.red {
+	grid-row: 1 / -1;
+	grid-column: 1 / 3;
+}
+
+.board-2 .area.yellow {
+	grid-row: 2 / -1;
+	grid-column: 3 / -1;
+}
+
+.board-3 .area.red-1 {
+	grid-row: 1 / -1;
+	grid-column: 1 / 3;
+}
+
+.board-3 .area.orange {
+	grid-row: 1 / -1;
+	grid-column: 3 / -1;
+}
+
+.sub-board {
+	display: grid;
+	grid-template-columns: subgrid;
+	grid-template-rows: subgrid;
+	gap: 10px;
+}
+
+.sub-board .blue {
+	grid-row: 7 / -1;
+	grid-column: 1 / -1;
+}
+
+.sub-board .sub-area.red-2 {
+	grid-row: 1 / 3;
+	grid-column: 1 / -1;
+}
+
+.sub-board .sub-area.red-3 {
+	grid-row: 5 / 7;
+	grid-column: 1 / 4;
+}
+
+.sub-board .sub-area.red-4 {
+	grid-row: 3 / 5;
+	grid-column: 1 / 4;
+}
+
+.sub-board .sub-area.red-5 {
+	grid-row: 3 / 5;
+	grid-column: 4 / -1;
+}
+
+.sub-board .sub-area.red-6 {
+	grid-row: 5 / 7;
+	grid-column: 4 / -1;
+}
+
+.board-4 .area.red {
+	grid-row: 1 / 2;
+	grid-column: 1 / -1;
+}
+
+.board-4 .area.yellow {
+	grid-row: 8 / -1;
+	grid-column: 1 / -1;
+}
+
+.board-4 .area.orange {
+	grid-row: 2 / 8;
+	grid-column: 1 / -1;
+}
+
+.board-5 .area.red {
+	grid-row: 1 / 2;
+	grid-column: 1 / -1;
+}
+
+.board-5 .area.orange {
+	grid-row: 2 / -1;
+	grid-column: 1 / 5;
+}
+
+.board-5 .area.yellow {
+	grid-row: 2 / -1;
+	grid-column: 5 / -1;
+}
+
+.board-6 .area.red-1 {
+	grid-row: 1 / 4;
+	grid-column: 1 / 7;
+}
+
+.board-6 .area.orange {
+	grid-row: 1 / 4;
+	grid-column: 7 / -1;
+}
+
+.board-6 .area.blue {
+	grid-row: 4 / -1;
+	grid-column: 7 / -1;
+}
+
+.board-6 .area.yellow {
+	grid-row: 4 / -1;
+	grid-column: 1 / 4;
+}
+
+.board-6 .area.red-2 {
+	grid-row: 4 / -1;
+	grid-column: 4 / 7;
+}
+
+.board-7 .area.green {
+	grid-row: 8 / -1;
+	grid-column: 1 / -1;
+}
+
+.board-7 .area.red-1 {
+	grid-row: 1 / 3;
+	grid-column: 1 / 5;
+}
+
+.board-7 .area.orange {
+	grid-row: 1 / 3;
+	grid-column: 5 / -1;
+}
+
+.board-7 .area.yellow {
+	grid-row: 3 / 5;
+	grid-column: 1 / 5;
+}
+
+.board-7 .area.purple {
+	grid-row: 6 / 8;
+	grid-column: 5 / -1;
+}
+
+.board-7 .area.red-2 {
+	grid-row: 3 / 6;
+	grid-column: 5 / -1;
+}
+
+.board-7 .area.blue {
+	grid-row: 5 / 8;
+	grid-column: 1 / 5;
+}
+
+.board-8 .area.red {
+	grid-row: 3 / 7;
+	grid-column: 3 / 7;
+}
