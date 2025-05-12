@@ -113,8 +113,8 @@ body {
 
 .bangladesh {
 	background-color: #f43448;
-	width: 150px;
-	height: 150px;
+	width: 50%;
+	height: 65%;
 	border-radius: 100%;
 }
 
@@ -139,12 +139,13 @@ body {
 
 .portugal.portugal-yellow {
 	background-color: #ffff1c;
-	width: 100px;
-	height: 100px;
+	width: 35%;
+	height: 50%;
 	border-radius: 100%;
 	position: absolute;
-	top: 82.94px;
-	left: 92px;
+	top: 50%;
+	left: 40%;
+	translate: -50% -40%;
 }
 
 .flag-japan {
@@ -156,8 +157,8 @@ body {
 
 .japan {
 	background-color: #f43448;
-	width: 130px;
-	height: 130px;
+	width: 35%;
+	height: 50%;
 	border-radius: 100%;
 }
 
@@ -181,9 +182,41 @@ body {
 	display: grid;
 	grid-template-columns: subgrid;
 	grid-template-rows: subgrid;
-	gap: 30px;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+.greece-sub-blue-1 {
+	grid-row: 1 / 2;
+	grid-column: 1 / -1;
+}
+
+.greece-sub-blue-2 {
+	grid-row: 2 / 3;
+	grid-column: 1 / -1;
+}
+
+.greece-white-1 {
+	grid-row: 3 / 4;
+	grid-column: 1 / -1;
+}
+
+.greece-sub-blue-3 {
+	grid-row: 4 / 5;
+	grid-column: 1 / -1;
+}
+
+.greece-sub-blue-4 {
+	grid-row: 5 / 6;
+	grid-column: 1 / -1;
+}
+
+.greece-white-2 {
+	grid-row: 3 / 4;
+	grid-column: 1 / -1;
+	transform: rotate(90deg);
+	width: 125%;
+	translate: -9% 0;
 }
 
 .bue-1 {
