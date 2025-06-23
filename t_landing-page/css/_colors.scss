@@ -1,0 +1,34 @@
+$black: #191919;
+$white: #ffffff;
+$cyan: #338cf4;
+$blue: #0064da;
+$light-gray: #fbfbfb;
+$dark-gray: #dadada;
+
+@mixin background($color) {
+	@if $color == black {
+		background: $black;
+		color: $white;
+	}
+	@if $color == blue {
+		background: $blue;
+		color: $white;
+	}
+	@if $color == white {
+		background: $white;
+		color: $blue;
+	}
+}
+
+.bg {
+	&-gray {
+		background: $light-gray;
+	}
+}
+
+@for $i from 1 through 4 {
+	.tab-#{$i} {
+		background-color: if($i == 1, $blue, $white);
+		color: if($i == 1, $white, $black);
+	}
+}
